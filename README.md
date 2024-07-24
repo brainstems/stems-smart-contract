@@ -9,8 +9,11 @@ This is the repository of the Brainstems smart contract. Symbol `STEMS`. Standar
 
 ## Deploying
 Deploying to Testnet
+
 ```near deploy <account> <wasm smart contract file>```
+
 or
+
 ```cargo near deploy <account Id> with-init-call new_default_meta json-args '{"owner_id": "'<account Id>'", "total_supply": "0"}' prepaid-gas '100.0 Tgas' attached-deposit '0 NEAR' network-config testnet sign-with-keychain send```
 
 ## Check for contract metadata
